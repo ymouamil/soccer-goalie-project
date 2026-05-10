@@ -1,6 +1,3 @@
-cd $HOME\Downloads\soccer-goalie-project
-
-@"
 # Soccer Goalie Arduino Project
 
 This project is a mini soccer goalie game using an Arduino Uno, SG92R servo, potentiometer, photoresistor, LEDs, 3D printed parts, and a Processing display.
