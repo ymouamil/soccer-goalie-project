@@ -1,6 +1,13 @@
+cd $HOME\Downloads\soccer-goalie-project
+
+@"
 # Soccer Goalie Arduino Project
 
 This project is a mini soccer goalie game using an Arduino Uno, SG92R servo, potentiometer, photoresistor, LEDs, 3D printed parts, and a Processing display.
+
+## Demo Video
+
+YouTube demo: https://www.youtube.com/watch?v=WekJ-e6B-3E&t=7s
 
 ## Features
 
@@ -23,15 +30,5 @@ This project is a mini soccer goalie game using an Arduino Uno, SG92R servo, pot
 
 ## Photoresistor Wiring
 
+```text
 5V --- photoresistor --- A1 --- 10k resistor --- GND
-
-## Folder Structure
-
-- Arduino code: Arduino/soccer_goalie_arduino/soccer_goalie_arduino.ino
-- Processing code: Processing/soccer_goalie_processing/soccer_goalie_processing.pde
-- 3D files: 3D_Files
-- Images and videos: Images
-
-## Notes
-
-The photoresistor works best when placed inside a small tube or tunnel so it only sees light from one direction. The ball should pass close to the sensor.
